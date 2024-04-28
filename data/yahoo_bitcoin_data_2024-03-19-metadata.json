@@ -1,0 +1,82 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "https://finance.yahoo.com/",
+    "dc:title": "yahoo_bitcoin_data_2024-03-19",
+    "dc:description": "This table describes the columns Date, Open, High, Low, Close, Adj Close and Volume of the dataset, which contains the daily Bitcoin prices in US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).",
+    "dc:creator": "Dennis Leser",
+    "tableSchema": {
+      "columns": [{
+          "titles": "Date",
+          "dc:description": "The day of the corresponding Bitcoin price.",
+          "datatype": {
+            "base": "string",
+            "format": "YYYY-MM-DD"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Open",
+          "dc:description": "The opening Bitcoin price of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "176.897003",
+            "maximum": "67549.734375"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "High",
+          "dc:description": "The maximum Bitcoin price of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "211.731003",
+            "maximum": "68789.625000"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Low",
+          "dc:description": "The minimum Bitcoin price of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "171.509995",
+            "maximum": "66382.062500"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Close",
+          "dc:description": "The closing Bitcoin price of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "178.102997",
+            "maximum": "67566.828125"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Adj Close",
+          "dc:description": "The adjusted closing Bitcoin price of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "178.102997",
+            "maximum": "67566.828125"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Volume",
+          "dc:description": "The Bitcoin trading volume of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "5914570",
+            "maximum": "350967941479"
+          },
+          "@type": "Column"
+        }
+      ],
+      "@type": "Schema"
+    },
+    "@type": "Table"
+  }
+}

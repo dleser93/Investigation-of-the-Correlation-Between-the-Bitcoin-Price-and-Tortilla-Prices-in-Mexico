@@ -1,0 +1,77 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico",
+    "dc:title": "Tortilla prices in Mexico",
+    "dc:description": "This table describes the columns State, City, Year, Month, Day, Store type and Price per kilogram of the dataset, which contains the tortilla prices in Mexican Peso (start date = "2007-01-10"; end date = "2024-03-01") for big retail stores and mom-and-pop stores for various states and cities in Mexico.",
+    "dc:creator": "Rick Chavelas (username on kaggle: richave) on kaggle: https://www.kaggle.com",
+    "tableSchema": {
+      "columns": [{
+          "titles": "State",
+          "dc:description": "The name of the state in Mexico in English.",
+          "datatype": {
+            "base": "string"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "City",
+          "dc:description": "The name of the city in Mexico in English.",
+          "datatype": {
+            "base": "string"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Year",
+          "dc:description": "The year of the observation.",
+          "datatype": {
+            "base": "number",
+            "minimum": "2007",
+            "maximum": "2024"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Month",
+          "dc:description": "The month of the observation.",
+          "datatype": {
+            "base": "number",
+            "minimum": "1",
+            "maximum": "12"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Day",
+          "dc:description": "The day of the observation.",
+          "datatype": {
+            "base": "number",
+            "minimum": "1",
+            "maximum": "31"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Store type",
+          "dc:description": "The type of the store: Mom and Pop Store (small stores located near living areas dedicated only to selling fresh tortillas) or Big Retail Store (such as Walmart, which sells tortillas in Mexico in almost all of its stores).",
+          "datatype": {
+            "base": "string"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Price per kilogram",
+          "dc:description": "The mean tortilla prices for all observations made during that day, city, and state. The price shown on the file is for 1 (one) kilogram of tortilla in Mexican peso ($MXN).",
+          "datatype": {
+            "base": "number",
+            "minimum": "0.0",
+            "maximum": "31.0"
+          },
+          "@type": "Column"
+        }
+      ],
+      "@type": "Schema"
+    },
+    "@type": "Table"
+  }
+}

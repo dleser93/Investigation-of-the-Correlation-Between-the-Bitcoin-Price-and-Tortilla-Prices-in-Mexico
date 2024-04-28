@@ -1,0 +1,39 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "",
+    "dc:title": "results_spearman_corr",
+    "dc:description": "This table describes the columns State, Spearman Corr and Store Type of the dataset, which contains the Spearman correlation coefficients between the daily closing prices of Bitcoin (start date = ”2014-09-17”; end date = ”2024-02-27”) and the mean tortilla prices (start date = ”2014-09-17”; end date = ”2024-02-27”) for each state of Mexico (aggregated over the prices per cities in the corresponding state) as well as separated for big retail stores and mom-and-pop stores.",
+    "dc:creator": "Dennis Leser",
+    "tableSchema": {
+      "columns": [{
+          "titles": "State",
+          "dc:description": "The name of the state in Mexico in English.",
+          "datatype": {
+            "base": "string"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Spearman Corr",
+          "dc:description": "The Spearman correlation coefficient between the daily closing prices of Bitcoin (start date = ”2014-09-17”; end date = ”2024-02-27”) and the mean tortilla prices (start date = ”2014-09-17”; end date = ”2024-02-27”) for the corresponding state of Mexico (aggregated over the prices per cities in the corresponding state) as well as the corresponding story type.",
+          "datatype": {
+            "base": "number",
+            "minimum": "0.08",
+            "maximum": "0.76"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Store type",
+          "dc:description": "The type of the store: Mom and Pop Store (small stores located near living areas dedicated only to selling fresh tortillas) or Big Retail Store (such as Walmart, which sells tortillas in Mexico in almost all of its stores).",
+          "datatype": {
+            "base": "string"
+          },
+          "@type": "Column"
+        }
+      ],
+      "@type": "Schema"
+    },
+    "@type": "Table"
+  }
+}

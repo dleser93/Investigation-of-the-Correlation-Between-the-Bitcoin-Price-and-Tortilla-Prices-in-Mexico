@@ -1,0 +1,82 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "https://finance.yahoo.com/",
+    "dc:title": "yahoo_ex_rates_data_2024-03-19",
+    "dc:description": "This table describes the columns Date, Open, High, Low, Close, Adj Close and Volume of the dataset, which contains the daily currency exchange rates to convert Mexican Peso (MXN) into US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).",
+    "dc:creator": "Dennis Leser",
+    "tableSchema": {
+      "columns": [{
+          "titles": "Date",
+          "dc:description": "The day of the corresponding exchange rate.",
+          "datatype": {
+            "base": "string",
+            "format": "YYYY-MM-DD"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Open",
+          "dc:description": "The opening exchange rate of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "9.866500",
+            "maximum": "25.315100"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "High",
+          "dc:description": "The maximum exchange rate of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "9.933700",
+            "maximum": "25.765341"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Low",
+          "dc:description": "The minimum exchange rate of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "9.834000",
+            "maximum": "24.728029"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Close",
+          "dc:description": "The closing exchange rate of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "9.866500",
+            "maximum": "25.336201"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Adj Close",
+          "dc:description": "The adjusted closing exchange rate of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "9.866500",
+            "maximum": "25.336201"
+          },
+          "@type": "Column"
+        },
+        {
+          "titles": "Volume",
+          "dc:description": "The exchange rates trading volume of this day.",
+          "datatype": {
+            "base": "number",
+            "minimum": "0.0",
+            "maximum": "0.0"
+          },
+          "@type": "Column"
+        }
+      ],
+      "@type": "Schema"
+    },
+    "@type": "Table"
+  }
+}
