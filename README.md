@@ -6,4 +6,4 @@ The input for this project are three datasets. The first dataset contains the to
 ## 1. Clone Repository and Install Requirements:
 Clone this repository and run in your local repository: pip install -r requirements.txt
 
-## 2. Download of the Datasets:
+## 2. Download the Datasets:
