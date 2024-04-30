@@ -9,6 +9,6 @@ The input for this project are three datasets. The first dataset contains the to
 ## 1. Folder Structure:
 
 * data
-* * djskd
+  * djskd
 
 ## 2. Download the Datasets:
