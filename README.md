@@ -23,5 +23,17 @@ The input for this project are three datasets. The first dataset contains the to
 * yfinance 0.2.38 (was used to download the datasets yahoo_bitcoin_data_2024-03-19.csv and yahoo_ex_rates_data_2024-03-19.csv, which is not necessary to reproduce the results)
 
 ## Metadata:
-All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from W3C and contains common metadata such as title, description and datatype. The vocabulary and term explanation is available at https://www.w3.org/ns/csvw.
+All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from W3C and contains common metadata such as title, description and datatype. The vocabulary and term explanation of this standard is available at https://www.w3.org/ns/csvw.
+
+## Input Dataset:
+* tortilla_prices.csv: This dataset contains the tortilla prices in Mexican Peso per kilogram (start date = "2007-01-10"; end date = "2024-03-01") for big retail stores and mom-and-pop stores for various states and cities in Mexico. The original source of this dataset is https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico (creator: Rick Chavelas; license: CC0: Public Domain) and was downloaded from the original source on the 19th of March, 2024.
+* yahoo_bitcoin_data_2024-03-19.csv: This dataset contains the daily Bitcoin prices in US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).
+* yahoo_ex_rates_data_2024-03-19.csv: This dataset contains the daily currency exchange rates to convert Mexican Peso (MXN) into US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).
+
+## Output Dataset:
+* results_spearman_corr.json: This dataset contains the results of this project, which are the Spearman correlation coefficients between the daily closing prices of Bitcoin (start date = ”2014-09-17”; end date = ”2024-02-27”) and the mean tortilla prices (start date = ”2014-09-17”; end date = ”2024-02-27”) for various states of Mexico (aggregated over the prices per cities in the corresponding state) as well as separated for big retail stores and mom-and-pop stores.
+
+
+
+
 
