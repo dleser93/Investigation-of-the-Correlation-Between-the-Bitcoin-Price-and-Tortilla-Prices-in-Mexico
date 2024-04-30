@@ -32,7 +32,7 @@ All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from 
 * **yahoo_ex_rates_data_2024-03-19.csv:** This dataset contains the daily currency exchange rates to convert Mexican Peso (MXN) into US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).
 
 ## Output Dataset:
-* **results_spearman_corr.json:** This dataset contains the results of this project, which are the Spearman correlation coefficients between the daily closing prices of Bitcoin (start date = ”2014-09-17”; end date = ”2024-02-27”) and the mean tortilla prices (start date = ”2014-09-17”; end date = ”2024-02-27”) for various states of Mexico (aggregated over the prices per cities in the corresponding state) as well as separated for big retail stores and mom-and-pop stores.
+* **results_spearman_corr.csv:** This dataset contains the results of this project, which are the Spearman correlation coefficients between the daily closing prices of Bitcoin (start date = ”2014-09-17”; end date = ”2024-02-27”) and the mean tortilla prices (start date = ”2014-09-17”; end date = ”2024-02-27”) for various states of Mexico (aggregated over the prices per cities in the corresponding state) as well as separated for big retail stores and mom-and-pop stores.
 
 ## Code Explanation:
 The Jupyter Notebook file Spearman_Corr_Bitcoin_Tortilla.ipynb contains the whole code of this project and is structured in the following sections:
