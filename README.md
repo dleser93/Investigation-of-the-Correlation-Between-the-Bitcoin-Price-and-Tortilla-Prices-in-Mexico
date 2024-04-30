@@ -16,8 +16,8 @@ The input for this project are three datasets. The first dataset contains the to
   * **metadata for output dataset:** results_spearman_corr-metadata.json
 
 ## Used Software and Libraries:
-* Python 3.7
 * Jupyther Notebook
+* Python 3.7
 * pandas 2.1.4
 * numpy 1.26.3
 * matplotlib 3.8.0
