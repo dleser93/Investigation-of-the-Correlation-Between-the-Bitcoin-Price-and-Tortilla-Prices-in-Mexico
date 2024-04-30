@@ -36,13 +36,26 @@ All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from 
 ## Code Explanation:
 The Jupyter Notebook file Spearman_Corr_Bitcoin_Tortilla.ipynb contains the whole code of this project and is structured in the following sections:
 
-**1.) Read Data:**
+**1. Read Data:**
 
-**2.) Transform Year, Month and Day to datetime Object:**
+**2. Transform Year, Month and Day to datetime Object:**
 
-**3.) Cut Time Series to Same Length:**
+**3. Cut Time Series to Same Length:**
 
-**4.) Remove Missing Values:**
+**4. Remove Missing Values:**
 
+**5. Transform Mexican Pesos to US Dollar:**
+
+**6. Aggregate Price for Each State:**
+
+**7. Merge Data:**
+
+**8. Plot Data:**
+
+**9. Calculate Spearman Correlations:**
+
+**10. Plot and Save Results:**
+
+**11. Interpretation of the Results:**
 
 
