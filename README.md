@@ -25,7 +25,7 @@ The input for this project are three datasets. The first dataset contains the to
 ## Metadata:
 All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from W3C and contains common metadata such as title, description and datatype. The vocabulary and term explanation of this standard is available at https://www.w3.org/ns/csvw.
 
-## Input Dataset:
+## Input Datasets:
 * **tortilla_prices.csv:** This dataset contains the tortilla prices in Mexican Peso per kilogram (start date = "2007-01-10"; end date = "2024-03-01") for big retail stores and mom-and-pop stores for various states and cities in Mexico. The original source of this dataset is https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico (creator: Rick Chavelas; license: CC0: Public Domain) and was downloaded from the original source on the 19th of March, 2024.
 * **yahoo_bitcoin_data_2024-03-19.csv:** This dataset contains the daily Bitcoin prices in US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).
 * **yahoo_ex_rates_data_2024-03-19.csv:** This dataset contains the daily currency exchange rates to convert Mexican Peso (MXN) into US dollar (USD) and was downloaded from https://finance.yahoo.com/ on the 19th of March, 2024 (start date = ”2007-01-10”; end date = ”2024-02-28”).
@@ -35,10 +35,14 @@ All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from 
 
 ## Code Explanation:
 The Jupyter Notebook file Spearman_Corr_Bitcoin_Tortilla.ipynb contains the whole code of this project and is structured in the following sections:
-1.) **Read Data:**
-2.) **Transform Year, Month and Day to datetime Object:**
-3.) **Cut Time Series to Same Length:**
-4.) **Remove Missing Values:**
+
+**1.) Read Data:**
+
+**2.) Transform Year, Month and Day to datetime Object:**
+
+**3.) Cut Time Series to Same Length:**
+
+**4.) Remove Missing Values:**
 
 
 
