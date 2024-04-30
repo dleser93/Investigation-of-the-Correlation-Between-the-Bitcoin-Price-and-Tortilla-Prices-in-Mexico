@@ -8,11 +8,11 @@ The input for this project are three datasets. The first dataset contains the to
 
 ## Folder Structure:
 * data
- * input datasets: tortilla_prices.csv, yahoo_bitcoin_data_2024-03-19.csv and yahoo_ex_rates_data_2024-03-19.csv
- * metadata for all input datasets: tortilla_prices-metadata.json, yahoo_bitcoin_data_2024-03-19-metadata.json and yahoo_ex_rates_data_2024-03-19-metadata.json
+  * input datasets: tortilla_prices.csv, yahoo_bitcoin_data_2024-03-19.csv and yahoo_ex_rates_data_2024-03-19.csv
+  * metadata for all input datasets: tortilla_prices-metadata.json, yahoo_bitcoin_data_2024-03-19-metadata.json and yahoo_ex_rates_data_2024-03-19-metadata.json
 * results
- * output dataset: results_spearman_corr.csv
- * metadata for output dataset: results_spearman_corr-metadata.json
+  * output dataset: results_spearman_corr.csv
+  * metadata for output dataset: results_spearman_corr-metadata.json
 
 ## Used Software and Libraries:
 * Python 3.7
