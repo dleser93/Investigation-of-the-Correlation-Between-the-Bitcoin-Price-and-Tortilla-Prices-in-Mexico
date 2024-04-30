@@ -24,7 +24,7 @@ The input for this project are three datasets. The first dataset contains the to
 * yfinance 0.2.38 (was used to download the datasets yahoo_bitcoin_data_2024-03-19.csv and yahoo_ex_rates_data_2024-03-19.csv, which is not necessary to reproduce the results)
 
 ## Metadata:
-All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from W3C and contains common metadata such as title, description and datatype. The vocabulary and term explanation of this standard is available at https://www.w3.org/ns/csvw.
+All metadata files follow the CSVW Namespace Vocabulary Terms for metadata from W3C and contain common metadata such as title, description and datatype. The vocabulary and term explanation of this standard is available at https://www.w3.org/ns/csvw.
 
 ## Input Datasets:
 * **tortilla_prices.csv:** This dataset contains the tortilla prices in Mexican Peso per kilogram (start date = "2007-01-10"; end date = "2024-03-01") for big retail stores and mom-and-pop stores for various states and cities in Mexico. The original source of this dataset is https://www.kaggle.com/datasets/richave/tortilla-prices-in-mexico (creator: Rick Chavelas; license: CC0: Public Domain) and was downloaded from the original source on the 19th of March, 2024.
